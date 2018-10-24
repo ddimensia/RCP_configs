@@ -1,0 +1,1360 @@
+{
+  "rcpCfg": {
+    "analogCfg": {
+      "0": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.9,
+            1.72,
+            2.65,
+            3.58,
+            4.4
+          ],
+          "scal": [
+            0.0,
+            25.0,
+            50.0,
+            75.0,
+            100.0
+          ]
+        },
+        "max": 100,
+        "min": 0,
+        "nm": "TPS",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 10,
+        "ut": "%"
+      },
+      "1": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.4,
+            0.87,
+            1.88,
+            3.2,
+            4.72
+          ],
+          "scal": [
+            302.0,
+            239.0,
+            176.0,
+            122.0,
+            32.0
+          ]
+        },
+        "max": 300,
+        "min": 0,
+        "nm": "OilTemp",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "F"
+      },
+      "2": {
+        "alpha": 0.01,
+        "map": {
+          "raw": [
+            0.0,
+            0.28,
+            0.42,
+            0.95,
+            1.7
+          ],
+          "scal": [
+            100.0,
+            100.0,
+            66.0,
+            33.0,
+            0.0
+          ]
+        },
+        "max": 100,
+        "min": 0,
+        "nm": "FuelLevel",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 5,
+        "ut": "F"
+      },
+      "3": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.4,
+            0.87,
+            1.88,
+            3.2,
+            4.72
+          ],
+          "scal": [
+            302.0,
+            239.0,
+            176.0,
+            122.0,
+            32.0
+          ]
+        },
+        "max": 5.0,
+        "min": 0.0,
+        "nm": "Analog4",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 0,
+        "ut": "F"
+      },
+      "4": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.4,
+            0.87,
+            1.88,
+            3.2,
+            4.72
+          ],
+          "scal": [
+            302.0,
+            239.0,
+            176.0,
+            122.0,
+            32.0
+          ]
+        },
+        "max": 300,
+        "min": 0,
+        "nm": "Coolant",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "F"
+      },
+      "5": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.5,
+            1.5,
+            2.5,
+            3.5,
+            4.5
+          ],
+          "scal": [
+            0.0,
+            36.0,
+            72.0,
+            108.0,
+            145.0
+          ]
+        },
+        "max": 150,
+        "min": 0,
+        "nm": "OilPress",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 10,
+        "ut": "PSI"
+      },
+      "6": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.5,
+            1.5,
+            2.5,
+            3.5,
+            4.5
+          ],
+          "scal": [
+            0.0,
+            36.0,
+            72.0,
+            108.0,
+            145.0
+          ]
+        },
+        "max": 150,
+        "min": 0,
+        "nm": "FuelPress",
+        "offset": 0.0,
+        "prec": 0,
+        "scalMod": 2,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "PSI"
+      },
+      "7": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 20.0,
+        "min": 0.0,
+        "nm": "Battery",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "Volts"
+      },
+      "8": {
+        "alpha": 1.0,
+        "map": {
+          "raw": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ],
+          "scal": [
+            0.0,
+            1.25,
+            2.5,
+            3.75,
+            5.0
+          ]
+        },
+        "max": 20.0,
+        "min": 0.0,
+        "nm": "Battery",
+        "offset": 0.0,
+        "prec": 2,
+        "scalMod": 1,
+        "scaling": 1.0,
+        "sr": 1,
+        "ut": "Volts"
+      }
+    },
+    "camCtrlCfg": {
+      "channel": "Speed",
+      "en": false,
+      "makeModel": 0,
+      "start": {
+        "gt": true,
+        "thresh": 15.0,
+        "time": 5
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 10.0,
+        "time": 10
+      }
+    },
+    "canCfg": {
+      "baud": [
+        500000,
+        500000
+      ],
+      "en": 1,
+      "term": [
+        1,
+        0
+      ]
+    },
+    "canChanCfg": {
+      "chans": [],
+      "en": 0
+    },
+    "capabilities": {
+      "channels": {
+        "analog": 9,
+        "can": 2,
+        "canChan": 100,
+        "gpio": 3,
+        "imu": 7,
+        "pwm": 0,
+        "timer": 4
+      },
+      "db": {
+        "script": 16384,
+        "tracks": 160
+      },
+      "flags": [
+        "activetrack",
+        "adc",
+        "bt",
+        "can",
+        "can_term",
+        "cell",
+        "gpio",
+        "gps",
+        "imu",
+        "lua",
+        "obd2",
+        "telemstream",
+        "timer",
+        "tracks",
+        "usb",
+        "wifi",
+        "sd"
+      ],
+      "sampleRates": {
+        "gps": 50,
+        "sensor": 1000
+      }
+    },
+    "connCfg": {
+      "btCfg": {
+        "btEn": 1,
+        "name": "",
+        "pass": ""
+      },
+      "cellCfg": {
+        "apnHost": "broadband",
+        "apnPass": "",
+        "apnUser": "",
+        "cellEn": 0
+      },
+      "telCfg": {
+        "bgStream": 1,
+        "deviceId": ""
+      }
+    },
+    "gpioCfg": {
+      "0": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "FuelLow",
+        "prec": 0,
+        "sr": 10,
+        "ut": ""
+      },
+      "1": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO2",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      },
+      "2": {
+        "max": 1,
+        "min": 0,
+        "mode": 0,
+        "nm": "GPIO3",
+        "prec": 0,
+        "sr": 0,
+        "ut": ""
+      }
+    },
+    "gpsCfg": {
+      "alt": 1,
+      "dist": 1,
+      "dop": 1,
+      "pos": 1,
+      "qual": 1,
+      "sats": 1,
+      "speed": 1,
+      "sr": 10
+    },
+    "imuCfg": {
+      "0": {
+        "alpha": 0.1,
+        "chan": 0,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelX",
+        "prec": 2,
+        "sr": 10,
+        "ut": "G",
+        "zeroVal": -157
+      },
+      "1": {
+        "alpha": 0.1,
+        "chan": 1,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelY",
+        "prec": 2,
+        "sr": 10,
+        "ut": "G",
+        "zeroVal": -14
+      },
+      "2": {
+        "alpha": 0.1,
+        "chan": 2,
+        "max": 3.0,
+        "min": -3.0,
+        "mode": 1,
+        "nm": "AccelZ",
+        "prec": 2,
+        "sr": 10,
+        "ut": "G",
+        "zeroVal": -479
+      },
+      "3": {
+        "alpha": 0.1,
+        "chan": 3,
+        "max": 300.0,
+        "min": -300.0,
+        "mode": 1,
+        "nm": "Yaw",
+        "prec": 1,
+        "sr": 10,
+        "ut": "Deg/Sec",
+        "zeroVal": 133
+      },
+      "4": {
+        "alpha": 0.1,
+        "chan": 4,
+        "max": 300.0,
+        "min": -300.0,
+        "mode": 1,
+        "nm": "Pitch",
+        "prec": 1,
+        "sr": 10,
+        "ut": "Deg/Sec",
+        "zeroVal": -37
+      },
+      "5": {
+        "alpha": 0.1,
+        "chan": 5,
+        "max": 300.0,
+        "min": -300.0,
+        "mode": 1,
+        "nm": "Roll",
+        "prec": 1,
+        "sr": 10,
+        "ut": "Deg/Sec",
+        "zeroVal": 61
+      }
+    },
+    "lapCfg": {
+      "currentLap": {
+        "max": 0,
+        "min": 0,
+        "nm": "CurrentLap",
+        "prec": 0,
+        "sr": 10,
+        "ut": ""
+      },
+      "elapsedTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "ElapsedTime",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      },
+      "lapCount": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapCount",
+        "prec": 0,
+        "sr": 10,
+        "ut": ""
+      },
+      "lapTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "LapTime",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      },
+      "predTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "PredTime",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      },
+      "sector": {
+        "max": 0,
+        "min": 0,
+        "nm": "Sector",
+        "prec": 0,
+        "sr": 10,
+        "ut": ""
+      },
+      "sectorTime": {
+        "max": 0,
+        "min": 0,
+        "nm": "SectorTime",
+        "prec": 4,
+        "sr": 10,
+        "ut": "Min"
+      }
+    },
+    "obd2Cfg": {
+      "en": 0,
+      "pids": []
+    },
+    "pwmCfg": {
+      "0": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "1": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "2": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      },
+      "3": {
+        "logMode": 0,
+        "max": 1000,
+        "min": -1000,
+        "nm": "Unknown",
+        "outMode": 0,
+        "prec": 0,
+        "sr": 0,
+        "stDutyCyc": 0,
+        "stPeriod": 0,
+        "ut": ""
+      }
+    },
+    "scriptCfg": {
+      "data": "--Developed by Luther Lloyd III 8/22/14 for use by Autosport Labs Community\n--Copy this text into the scripting window of Race Analyzer\n--Edit the gear ratios to mathch your car\n--Add another gear row if needed for 6th gear or delete extraneous ones\n\n--below values are constants for the vehicle\nlocal gear1 = 3.23\nlocal gear2 = 2.045\nlocal gear3 = 1.258\nlocal gear4 = 0.972\nlocal gear5 = 0.731\nlocal FinalDrive = 4.285\n--diameter in inches\nlocal TireDia = 25.6  \n--allowable error of gear ratio to allow for measurement variation\nlocal gearErr = 0.1\nlocal rpmSpeedRatio = 0\n--initialized to 0 so if it doesn't work you know\nlocal gearPos = 0 --this is the gear channel variable\n\n--this part only works for firmware version 2.0 per the RCP page\nlocal gearId = addChannel(\"Gear\",5,0,1,5)\n\n--channel map\nlocal tpsChannel = 0\nlocal fuelLevelChannel = 2\nlocal oilTempChannel = 3\nlocal coolantChannel = 4\nlocal oilPressureChannel = 5\nlocal fuelPressureChannel = 6\nlocal voltageChannel = 7\nlocal lowFuelIOChannel = 0\n\n--fuel total\nlocal fuelFlowChannelId = 1\nlocal fuelKFactor = 37000\nlocal fuelTotal = 0\nlocal fuelLastCount = 0\nlocal fuelTotalChanId = addChannel(\"FuelTotal\",10,2)\nlocal gphChanId = addChannel(\"GPH\",10,2)\n\n\n--variables for setting warning light\nlocal maxOilTemp = 260\nlocal maxCoolantTemp = 215\nlocal minOilPressure = 10\nlocal minVoltage = 12\nlocal warningLightChannel = 0\n\n-----------------------------------------------------------------\n-- ShiftX2 Variables\n-----------------------------------------------------------------\n-- What CAN bus ShiftX2 is connected to. 0=CAN1, 1=CAN2\nsxCan = 0\n\n-- 0=first ShiftX2 on bus, 1=second ShiftX2 (if ADR1 jumper is cut)\nsxId=0\n\n--how often ShiftX2 is updated\ntickRate=10\n\n--Brightness, 0-100. 0=automatic brightness\nsxBright=0\n--\n\n\nfunction calcGear()\n  --assumes Pulse Input channel one is for the RPM signal and speed in MPH\n  local speed = getGpsSpeed()\n  local rpm = getTimerRpm(0)\n\n  -- Enable logging if the engine is running\n  if rpm > 10 then\n    startLogging()\n  else\n    stopLogging()\n  end\n\n  -- Calculate the current gear if we're moving\n  if speed > 10 then\n    --makes sure your rolling so as not to divide by 0 \n    \n   rpmSpeedRatio = (rpm/speed)/(FinalDrive*1056/(TireDia*3.14159))\n\n    if ((gear1 - rpmSpeedRatio)^2) < (gearErr^2) then gearPos = 1 end\n    if ((gear2 - rpmSpeedRatio)^2) < (gearErr^2) then gearPos = 2 end\n    if ((gear3 - rpmSpeedRatio)^2) < (gearErr^2) then gearPos = 3 end\n    if ((gear4 - rpmSpeedRatio)^2) < (gearErr^2) then gearPos = 4 end\n    if ((gear5 - rpmSpeedRatio)^2) < (gearErr^2) then gearPos = 5 end\n  else \n    gearPos = 0 \n  end\n\n  setChannel(gearId, gearPos) --outputs to virtual channel\nend\n\nfunction checkErrorConditions()\n  local showError = 0\n  local oilTemp = getAnalog(oilTempChannel)\n  local coolantTemp = getAnalog(coolantChannel)\n  local oilPressure = getAnalog(oilPressureChannel)\n  local fuelPressure = getAnalog(fuelPressureChannel)\n  local voltage = getAnalog(voltageChannel)\n  local lowFuel = getGpio(lowFuelIOChannel)\n\n  -- if oilTemp > maxOilTemp then showError = 1 end\n  if coolantTemp > maxCoolantTemp then showError = 1 end\n  if oilPressure < minOilPressure then showError = 1 end\n  if voltage < minVoltage then showError = 1 end\n\n  --update engine alert\n  if showError == 1 then\n    sxUpdateAlert(0, 100)\n  else\n    sxUpdateAlert(0, 0)\n  end\n\n  -- update fuel alert, inverted logic\n  if lowFuel == 0 then\n    -- fuel pin low indicates low fuel\n    sxUpdateAlert(1, 100)\n  else\n    sxUpdateAlert(1, 0)\n  end\nend\n\n-- Calculate the amount of fuel used since the last call.\nfunction updateFuelTotal()\n  -- Get the current pulse count from the PWM channel\n  local timerCount = getTimerCount(fuelFlowChannelId)\n\n  -- Determine if the pulse count was reset back to 0 since the last time\n  -- we checked and calculate the number of pulses since last update\n  if fuelLastCount < timerCount then\n    local countSinceLast = timerCount - fuelLastCount\n    -- Update the current fuel total\n    fuelTotal = fuelTotal + (countSinceLast / fuelKFactor)\n    -- Set the virtual channel with the updated value\n    setChannel(fuelTotalChanId, fuelTotal)\n  end\n\n  -- Update the last count value for the next tick\n  fuelLastCount = timerCount\nend\n\nfunction updateGPH()\n  -- Get the fuel flow sensor pulse frequency\n  local fuelFlowFreq = getTimerFreq(fuelFlowChannelId)\n  -- set the gph to the frequency times the number of seconds in an hour\n  -- divide by the k factor of the sensor\n  setChannel(gphChanId, fuelFlowFreq * 3600 / fuelKFactor)\nend\n\n\n----------------------------------------------------------------\n--  ShiftX2 Functions\n----------------------------------------------------------------\n\nfunction sxOnUpdate()\n  --add your code to update ShiftX2 alerts or linear graph during run time.\n  --Runs continuously based on tickRate.\n  \n  --uncomment the below for OBDII RPM PID\n  --sxUpdateLinearGraph(readOBD2(12))\n\n  --uncomment the below for Direct RPM on input 0\n  sxUpdateLinearGraph(getTimerRpm(0))\nend\n\nfunction sxOnInit()\n  --config shift light\n  sxCfgLinearGraph(0,0,0,7000) --left to right graph, linear style, 0 - 7000 RPM range\n\n  sxSetLinearThresh(0,0,3000,0,255,0,0) --green at 3000 RPM\n  sxSetLinearThresh(1,0,5800,255,255,0,0) --yellow at 5000 RPM\n  sxSetLinearThresh(2,0,6800,255,0,0,10) --red+flash at 6800 RPM\n\n  --configure first alert (right LED) as engine temperature (F)\n  sxSetAlertThresh(0,0,100,255,0,0,10) -- red flash at 225F\n\n  --configure second alert (left LED) as oil pressure (PSI)\n  sxSetAlertThresh(1,0,100,255,0,0,0) --red flash below 15 psi\nend\n\nfunction sxOnBut(b)\n  -- button is pressed when b == 1\n  if b == 1 then\n    -- reset fuel total\n    resetTimerCount(fuelFlowChannelId)\n    fuelTotal = 0\n    fuelLastCount = 0\n    setChannel(fuelTotalChanId, fuelTotal)\n  end\nend\n\n-----------------------------------------------------------------\n-- ShiftX2 API functions\n-----------------------------------------------------------------\n\nfunction sxSetLed(i,l,r,g,b,f)\n  sxTx(10,{i,l,r,g,b,f})\nend\n\nfunction sxSetLinearThresh(id,s,th,r,g,b,f)\n  sxTx(41,{id,s,spl(th),sph(th),r,g,b,f})\nend\n\nfunction sxSetAlertThresh(id,tid,th,r,g,b,f)\n  sxTx(21,{id,tid,spl(th),sph(th),r,g,b,f})\nend\n\nfunction setBaseConfig(bright)\n  sxTx(3,{bright})\nend\n\nfunction sxSetAlert(id,r,g,b,f)\n  sxTx(20,{id,r,g,b,f})\nend\n\nfunction sxUpdateAlert(id,v)\n  if v~=nil then sxTx(22,{id,spl(v),sph(v)}) end\nend\n\nfunction sxCfgLinearGraph(rs,ls,lr,hr) \n  sxTx(40,{rs,ls,spl(lr),sph(lr),spl(hr),sph(hr)})\nend\n\nfunction sxUpdateLinearGraph(v)\n  if v ~= nil then sxTx(42,{spl(v),sph(v)}) end\nend\n\nfunction sxInit()\n  println('config shiftX2')\n  setBaseConfig(sxBright)\n  if sxOnInit~=nil then sxOnInit() end\nend\n\nfunction sxChkCan()\n  id,ext,data=rxCAN(sxCan,0)\n  if id==sxCanId then sxInit() end\n  if id==sxCanId+60 and sxOnBut~=nil then sxOnBut(data[1]) end\nend\n\nfunction sxProcess()\n  sxChkCan()\n  if sxOnUpdate~=nil then sxOnUpdate() end\nend\n\nfunction sxTx(offset, data)\n  txCAN(sxCan, sxCanId + offset, 1, data)\n  sleep(10)\nend\n\nfunction spl(v) return bit.band(v,0xFF) end\nfunction sph(v) return bit.rshift(bit.band(v,0xFF00),8) end\n\n--update gear position, fuel total, GPH, error conditions and update shiftx2\nfunction onTick() \n  updateFuelTotal()\n  updateGPH()\n  checkErrorConditions()\n  calcGear()\n  sxProcess()\nend\n\nsxCanId = 0xE3600 + (256 * sxId)\nprintln('shiftx2 base id ' ..sxCanId)\n\nsetTickRate(tickRate)\nsxInit()\n",
+      "page": null
+    },
+    "sdLogCtrlCfg": {
+      "channel": "Speed",
+      "en": true,
+      "start": {
+        "gt": true,
+        "thresh": 40.0,
+        "time": 5
+      },
+      "stop": {
+        "gt": false,
+        "thresh": 25.0,
+        "time": 10
+      }
+    },
+    "timerCfg": {
+      "0": {
+        "alpha": 1.0,
+        "max": 6500,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM",
+        "ppr": 3.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 10,
+        "st": 0,
+        "ut": ""
+      },
+      "1": {
+        "alpha": 1.0,
+        "max": 300,
+        "min": 0,
+        "mode": 1,
+        "nm": "Freq1",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 10,
+        "st": 0,
+        "ut": ""
+      },
+      "2": {
+        "alpha": 1.0,
+        "max": 1000,
+        "min": 0,
+        "mode": 1,
+        "nm": "Freq3",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": ""
+      },
+      "3": {
+        "alpha": 1.0,
+        "max": 8000,
+        "min": 0,
+        "mode": 0,
+        "nm": "RPM4",
+        "ppr": 1.0,
+        "prec": 0,
+        "speed": 1,
+        "sr": 0,
+        "st": 0,
+        "ut": "rpm"
+      }
+    },
+    "trackCfg": {
+      "autoDetect": 1,
+      "rad": 0.0001,
+      "track": {
+        "id": 1427687874,
+        "sec": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "sf": [
+          47.32093,
+          -122.147545
+        ],
+        "type": 0
+      }
+    },
+    "trackDb": {
+      "size": 7,
+      "tracks": [
+        {
+          "id": 0,
+          "sec": [
+            [
+              96.0,
+              2147483647.0
+            ],
+            [
+              0.0,
+              5000000.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              10000.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            0.5,
+            0.0
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427688050,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            47.254711,
+            -123.192474
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427687874,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            47.32093,
+            -122.147545
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427687910,
+          "sec": [
+            [
+              45.596123,
+              -122.698212
+            ],
+            [
+              45.597588,
+              -122.703056
+            ],
+            [
+              45.598751,
+              -122.70166
+            ],
+            [
+              45.598019,
+              -122.699822
+            ],
+            [
+              45.599964,
+              -122.69944
+            ],
+            [
+              45.599087,
+              -122.694305
+            ],
+            [
+              45.595348,
+              -122.689537
+            ],
+            [
+              45.59383,
+              -122.687874
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            45.595036,
+            -122.694496
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427687862,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            45.3638,
+            -120.744598
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427688058,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            39.53664,
+            -122.338631
+          ],
+          "type": 0
+        },
+        {
+          "id": 1427687677,
+          "sec": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "sf": [
+            36.586456,
+            -121.756638
+          ],
+          "type": 0
+        }
+      ]
+    },
+    "ver": {
+      "bugfix": 6,
+      "fname": "RaceCapture/Apex",
+      "git_info": "2.13.6",
+      "major": 2,
+      "minor": 13,
+      "name": "RC_APEX"
+    },
+    "wifiCfg": {
+      "active": true,
+      "ap": {
+        "active": false,
+        "channel": 11,
+        "encryption": "wpa2",
+        "password": "racecapture1234",
+        "ssid": "RaceCapturePro"
+      },
+      "client": {
+        "active": true,
+        "password": "dylanrules2003",
+        "ssid": "null2"
+      }
+    }
+  }
+}
